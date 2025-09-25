@@ -232,48 +232,47 @@ input:hover {
 
 /* Winner Screen */
 .winner-notepad {
-  position: relative;
-  background: #fff;
-  border-radius: 40px;
-  width: 50%;
-  max-width: 1200px;
-  min-height: 1400px;
-  padding: 120px 80px 200px 80px;
-  border-left: 20px solid #45BABD;
-  overflow: visible;
-  z-index: 2;
+  background: url('background.png') center/cover no-repeat;
+  max-width: 2101.790771484375px;
+  min-height: 3179.175048828125px;
 }
 
 .winner-content {
   text-align: left;
-  margin-bottom: 60px;
-  margin-top: 40px;
-  position: relative;
 }
 
 .winner-title {
-  font-size: 3rem;
+  position: absolute;
+  top: 772px;
+  left: 469px;
+  font-size: 180px;
   font-weight: 700;
   color: #222;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  width: 1466px;
 }
 
 .winner-name {
-  font-size: 6rem;
-  font-weight: 600;
-  color: #222;
-  margin-bottom: 40px;
-  font-style: italic;
+  position: absolute !important;
+  top: 1100px !important;
+  left: 469px !important;
+  font-size: 150px !important;
+  font-weight: 600 !important;
+  color: #222 !important;
+  font-style: italic !important;
+  z-index: 99999 !important;
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
 }
 
 .winner-prize {
-  font-size: 2.5rem;
+  position: absolute;
+  top: 1400px;
+  left: 469px;
+  font-size: 120px;
   font-weight: 700;
   color: #d50000;
-  margin-bottom: 60px;
+  width: 1200px;
 }
 
 .winner-prize .highlight {
@@ -282,48 +281,49 @@ input:hover {
 }
 
 .winner-instruction {
-  margin-bottom: 60px;
+  position: absolute;
+  top: 1700px;
+  left: 469px;
 }
 
 .instruction-bg {
   display: inline-block;
   background: #b3e6fd;
   color: #1976d2;
-  font-size: 2rem;
+  font-size: 100px;
   font-weight: 600;
   padding: 20px 30px;
   border-radius: 20px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 .winner-visuals {
   position: relative;
   height: 300px;
-  margin-bottom: 40px;
 }
 
 .winner-arrow {
   position: absolute;
-  left: 200px;
-  top: 180px;
+  left: 1200px;
+  top: 1800px;
   width: 300px;
   z-index: 2;
 }
 
 .winner-gift {
   position: absolute;
-  left: 0px;
-  top: 420px;
+  left: 800px;
+  top: 2200px;
   width: 300px;
   z-index: 2;
 }
 
 .winner-tooth {
   position: absolute;
-  right: 0;
-  top: 500px;
-  width: 300px;
-  z-index: 2;
+  left: 1095px;
+  top: 2719px;
+  width: 860px;
+  height: 954px;
+  z-index: 3;
 }
 
 /* Radio Button Styles for Step 4 */
@@ -400,7 +400,7 @@ input:hover {
   display: flex;
   flex-direction: column;
   gap: 60px;
-  width: 1200px;
+  width: 1500px;
 }
 
 .quiz-option {
@@ -568,7 +568,7 @@ input:hover {
   font-size: 125px;
   line-height: 100%;
   letter-spacing: -1.1%;
-  width: 1265px;
+  width: 1565px;
   height: auto;
   transform: rotate(0deg);
   opacity: 1 !important;
@@ -582,7 +582,7 @@ input:hover {
 .quiz-next-btn {
   position: fixed !important;
   top: 3400px !important;
-  left: 469px !important;
+  left: 340px !important;
   width: 1448.252197265625px !important;
   height: 297px !important;
   background: #45BABD !important;

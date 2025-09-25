@@ -27,8 +27,10 @@ function nextStep(n) {
     renderQuestion();
   }
   if (step === 7) {
-    document.getElementById('winnerTitle').textContent = `🎉 Congratulations, ${title}${name}! 🎉`;
-    document.getElementById('usersCountText').textContent = `Total Users Completed: ${usersCount}`;
+    document.getElementById('winnerName').textContent = `${title}${name}`;
+    setTimeout(() => {
+      restart();
+    }, 10000);
   }
 }
 
@@ -105,6 +107,7 @@ function restart() {
   category = "";
   current = 0;
   score = 0;
+  document.getElementById('username').value = "";
   showStep(1);
 }
 
@@ -116,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('dentistRadio').onchange = () => setCategory('dentist');
   document.getElementById('generalRadio').onchange = () => setCategory('general');
   document.getElementById('startQuizBtn').onclick = () => nextStep(6);
-  document.getElementById('thankYouBtn').onclick = restart;
+
 
   document.addEventListener('click', function(e) {
     if (e.target.tagName === 'BUTTON') {
