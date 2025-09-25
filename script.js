@@ -52,9 +52,15 @@ function setCategory(cat) {
 }
 
 function renderQuestion() {
+  if (!questions || questions.length === 0) {
+    questions = window.questions || [];
+  }
   let q = questions[current];
-  document.getElementById('progressText').textContent = `Question ${current + 1} of ${questions.length}`;
+  document.getElementById('progressCount').textContent = `${current + 1}/5`;
+  document.getElementById('progressFill').style.width = `${((current + 1) / 5) * 100}%`;
   document.getElementById('questionText').textContent = q.question;
+  document.getElementById('questionText').style.display = 'block';
+  document.getElementById('questionText').style.visibility = 'visible';
   const optionsContainer = document.getElementById('optionsContainer');
   optionsContainer.innerHTML = "";
   q.options.forEach((opt, index) => {
