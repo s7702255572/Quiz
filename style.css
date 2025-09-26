@@ -102,7 +102,7 @@ body.intro {
 .notepad-content h2 {
   position: absolute;
   width: 67.91vw;
-  height: 50.00vw;
+
   top: 35.74vw;
   left: 21.71vw;
   transform: rotate(0deg);
@@ -601,4 +601,18 @@ input:hover {
   visibility: visible !important;
   cursor: pointer !important;
   opacity: 1 !important;
+}
+
+.notepad-content p {
+    position: absolute;
+    top: 65vw;
+    left: 21.71vw;
+    width: 67.91vw;
+    font-size: 5.56vw;
+    line-height: 1.2;
+    color: #222;
+}
+
+#startQuizBtn {
+  top: 98vw;
 }
