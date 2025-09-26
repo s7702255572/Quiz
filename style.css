@@ -1,16 +1,13 @@
 /* 4K TV Optimized CSS (2160x3840) */
 body, html {
-  width: 2160px;
-  height: 3840px;
+  width: 100vw;
+  height: 177.77vw; /* 3840/2160 = 1.7777 */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Alegreya Sans', Arial, sans-serif;
   background: #45BABD;
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  left: 0;
+  overflow-x: hidden;
 }
 
 /* *, *::before, *::after {
@@ -37,32 +34,32 @@ body.intro {
 
 .play-button {
   position: absolute;
-  width: 1381px;
-  height: 340px;
-  top: 3100px;
-  left: 365px;
+  width: 63.94vw;
+  height: 15.74vw;
+  top: 143.52vw;
+  left: 16.90vw;
   transform: rotate(0deg);
   opacity: 1;
   background: linear-gradient(45deg, #00bcd4, #0097a7);
   color: white;
-  border: 3px solid rgba(255,255,255,0.3);
+  border: 0.14vw solid rgba(255,255,255,0.3);
   font-family: 'inter',;
   font-weight: 800;
   font-style: medium;
-  font-size: 280.88px;
+  font-size: 13.00vw;
   line-height: 100%;
   letter-spacing: 4%;
-  border-radius: 386.21px;
+  border-radius: 17.88vw;
   cursor: pointer;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.3), inset 0 2px 4px rgba(255,255,255,0.3), 0 0 20px rgba(0,188,212,0.5);
+  box-shadow: 0 0.37vw 0.93vw rgba(0,0,0,0.3), inset 0 0.09vw 0.19vw rgba(255,255,255,0.3), 0 0 0.93vw rgba(0,188,212,0.5);
   transition: all 0.3s ease;
   text-transform: uppercase;
   overflow: hidden;
 }
 
 .play-button:hover {
-  transform: translateY(-3px) scale(1.05);
-  box-shadow: 0 12px 25px rgba(0,0,0,0.4), 0 0 30px rgba(0,188,212,0.8);
+  transform: translateY(-0.14vw) scale(1.05);
+  box-shadow: 0 0.56vw 1.16vw rgba(0,0,0,0.4), 0 0 1.39vw rgba(0,188,212,0.8);
 }
 
 /* Value Proposition Screen */
@@ -77,25 +74,25 @@ body.intro {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 100px 50px;
+  padding: 4.63vw 2.31vw;
   z-index: 1;
 }
 
 .notepad-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 1.85vw;
 }
 
 .logo {
-  width: 515.5692138671875px;
-  height: 420.822265625px;
-  margin-bottom: 40px;
+  width: 23.87vw;
+  height: 19.48vw;
+  margin-bottom: 1.85vw;
 }
 
 .notepad {
   background: url('background.png') center/cover no-repeat;
-  max-width: 2101.790771484375px;
-  min-height: 3179.175048828125px;
+  max-width: 97.31vw;
+  min-height: 147.18vw;
 }
 
 .notepad-content {
@@ -104,33 +101,33 @@ body.intro {
 
 .notepad-content h2 {
   position: absolute;
-  width: 1466.8194580078125px;
-  height: 1080px;
-  top: 772px;
-  left: 469px;
+  width: 67.91vw;
+  height: 50.00vw;
+  top: 35.74vw;
+  left: 21.71vw;
   transform: rotate(0deg);
-  font-size: 180px;
+  font-size: 8.33vw;
   font-weight: 700;
   color: #222;
   line-height: 100%;
   word-wrap: break-word;
   opacity: 1;
-  gap: 74.27px;
+  gap: 3.44vw;
   margin: 0;
 }
 
 .im-in-btn {
   position: absolute;
-  width: 1448px;
-  height: 297px;
+  width: 67.04vw;
+  height: 13.75vw;
   background: #1788A9;
-  top: 2113px;
-  left: 446px;
+  top: 97.82vw;
+  left: 20.65vw;
   color: #fff;
-  font-size: 123.78px;
+  font-size: 5.73vw;
   font-weight: 700;
   border: none;
-  border-radius: 598px;
+  border-radius: 27.69vw;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -140,80 +137,80 @@ body.intro {
 
 .tooth-img {
   position: absolute;
-  top: 2719px;
-  left: 1095px;
-  width: 860px;
-  height: 954px;
+  top: 125.88vw;
+  left: 50.69vw;
+  width: 39.81vw;
+  height: 44.17vw;
   z-index: 3;
 }
 
 /* General Button Styles */
 button {
   position: absolute;
-  width: 1448.252197265625px;
-  height: 328.0231628417969px;
-  top: 2300px;
-  left: 446px;
+  width: 67.05vw;
+  height: 15.19vw;
+  top: 106.48vw;
+  left: 20.65vw;
   transform: rotate(0deg);
   opacity: 1;
   background: linear-gradient(45deg, #20b2aa, #48cae4);
   color: white;
   border: none;
-  font-size: 123.78px;
+  font-size: 5.73vw;
   font-weight: 600;
-  border-radius: 598.42px;
+  border-radius: 27.70vw;
   cursor: pointer;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 0.19vw 0.69vw rgba(0,0,0,0.2);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  transform: translateY(-0.09vw);
+  box-shadow: 0 0.28vw 0.93vw rgba(0,0,0,0.3);
 }
 
 
 /* Step 3 Content Positioning */
 .notepad-content1 {
   position: absolute;
-  width: 1466.8194580078125px;
-  height: 937.1068115234375px;
-  top: 772px;
-  left: 469px;
+  width: 67.91vw;
+  height: 43.38vw;
+  top: 35.74vw;
+  left: 21.71vw;
   transform: rotate(0deg);
   opacity: 1;
   display: flex;
   flex-direction: column;
-  gap: 72px;
+  gap: 3.33vw;
 }
 
 /* Input Styles */
 /* input {
-  width: 1325px;
-  height: 300.1068420410156px;
+  width: 61.34vw;
+  height: 13.90vw;
   transform: rotate(0deg);
   opacity: 1;
-  font-size: 90.6px;
-  border: 14.16px solid #1788A9;
-  border-radius: 566.24px;
+  font-size: 4.19vw;
+  border: 0.65vw solid #1788A9;
+  border-radius: 26.21vw;
   text-align: center;
   transition: border-color 0.3s ease;
   display: block;
-  top: 637px;
+  top: 29.49vw;
 } */
 
 #username {
   position: absolute !important;
-  top: 969px !important;
-  left: 45px !important;
-  width: 1325px !important;
-  height: 300px !important;
-  font-size: 90.6px !important;
-  border: 14.16px solid #1788A9 !important;
-  border-radius: 566.24px !important;
+  top: 44.86vw !important;
+  left: 2.08vw !important;
+  width: 61.34vw !important;
+  height: 13.89vw !important;
+  font-size: 4.19vw !important;
+  border: 0.65vw solid #1788A9 !important;
+  border-radius: 26.21vw !important;
   text-align: center !important;
   z-index: 9999 !important;
   display: block !important;
@@ -233,8 +230,8 @@ input:hover {
 /* Winner Screen */
 .winner-notepad {
   background: url('background.png') center/cover no-repeat;
-  max-width: 2101.790771484375px;
-  min-height: 3179.175048828125px;
+  max-width: 97.31vw;
+  min-height: 147.18vw;
 }
 
 .winner-content {
@@ -243,19 +240,19 @@ input:hover {
 
 .winner-title {
   position: absolute;
-  top: 772px;
-  left: 469px;
-  font-size: 180px;
+  top: 35.74vw;
+  left: 21.71vw;
+  font-size: 8.33vw;
   font-weight: 700;
   color: #222;
-  width: 1466px;
+  width: 67.87vw;
 }
 
 .winner-name {
   position: absolute !important;
-  top: 1100px !important;
-  left: 469px !important;
-  font-size: 150px !important;
+  top: 50.93vw !important;
+  left: 21.71vw !important;
+  font-size: 6.94vw !important;
   font-weight: 600 !important;
   color: #222 !important;
   font-style: italic !important;
@@ -267,12 +264,12 @@ input:hover {
 
 .winner-prize {
   position: absolute;
-  top: 1400px;
-  left: 469px;
-  font-size: 120px;
+  top: 64.81vw;
+  left: 21.71vw;
+  font-size: 5.56vw;
   font-weight: 700;
   color: #d50000;
-  width: 1200px;
+  width: 55.56vw;
 }
 
 .winner-prize .highlight {
@@ -282,14 +279,14 @@ input:hover {
 
 .winner-instruction {
   position: absolute;
-  top: 1700px;
-  left: 469px;
+  top: 78.70vw;
+  left: 21.71vw;
 }
 
 .instruction-bg {
-  top: 284px;
-  width: 1459px;
-  height: 407px;
+  top: 13.15vw;
+  width: 67.55vw;
+  height: 18.84vw;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -297,58 +294,58 @@ input:hover {
   position: absolute;
   background: #b3e6fd;
   color: #1976d2;
-  font-size: 100px;
+  font-size: 4.63vw;
   font-weight: 700;
-  padding: 10px;
-  border-radius: 45px;
+  padding: 0.46vw;
+  border-radius: 2.08vw;
 }
 
 .winner-visuals {
   position: relative;
-  height: 300px;
+  height: 13.89vw;
 }
 
 .winner-arrow {
   position: absolute;
-  left: 782.37px;
-  top: 1800px;
-  width: 510.31805419921875px;
+  left: 36.22vw;
+  top: 83.33vw;
+  width: 23.63vw;
   z-index: 2;
 }
 
 .winner-gift {
   position: absolute;
-  left: 300px;
-  top: 2200px;
-  width: 860px;
-  height: 954px;
+  left: 13.89vw;
+  top: 101.85vw;
+  width: 39.81vw;
+  height: 44.17vw;
   z-index: 3;
 }
 
 .winner-tooth {
   position: absolute;
-  left: 1095px;
-  top: 2719px;
-  width: 860px;
-  height: 954px;
+  left: 50.69vw;
+  top: 125.88vw;
+  width: 39.81vw;
+  height: 44.17vw;
   z-index: 3;
 }
 
 /* Radio Button Styles for Step 4 */
 .radio-options {
   position: absolute;
-  top: 1800px;
-  left: 469px;
+  top: 83.33vw;
+  left: 21.71vw;
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 3.70vw;
 }
 
 .radio-option {
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-size: 180px;
+  font-size: 8.33vw;
   font-weight: 700;
   color: #222;
 }
@@ -358,11 +355,11 @@ input:hover {
 }
 
 .radio-circle {
-  width: 120px;
-  height: 120px;
-  border: 8px solid #666;
+  width: 5.56vw;
+  height: 5.56vw;
+  border: 0.37vw solid #666;
   border-radius: 50%;
-  margin-right: 60px;
+  margin-right: 2.78vw;
   position: relative;
   background: white;
 }
@@ -378,8 +375,8 @@ input:hover {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60px;
-  height: 60px;
+  width: 2.78vw;
+  height: 2.78vw;
   background: white;
   border-radius: 50%;
 }
@@ -391,31 +388,31 @@ input:hover {
 /* Progress and Quiz Styles */
 .progress {
   position: absolute;
-  top: 700px;
-  left: 469px;
+  top: 32.41vw;
+  left: 21.71vw;
   background: rgba(255,255,255,0.3);
-  border-radius: 20px;
-  padding: 20px 40px;
+  border-radius: 0.93vw;
+  padding: 0.93vw 1.85vw;
   color: black;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 2.78vw;
 }
 
 .options {
   position: absolute;
-  top: 2000px;
-  left: 469px;
+  top: 92.59vw;
+  left: 21.71vw;
   display: flex;
   flex-direction: column;
-  gap: 60px;
-  width: 1500px;
+  gap: 2.78vw;
+  width: 69.44vw;
 }
 
 .quiz-option {
   display: flex;
   align-items: center;
   cursor: pointer;
-  font-size: 120px;
+  font-size: 5.56vw;
   font-weight: 600;
   color: #222;
 }
@@ -425,11 +422,11 @@ input:hover {
 }
 
 .quiz-checkbox {
-  width: 80px;
-  height: 80px;
-  border: 6px solid #45BABD;
-  border-radius: 8px;
-  margin-right: 40px;
+  width: 3.70vw;
+  height: 3.70vw;
+  border: 0.28vw solid #45BABD;
+  border-radius: 0.37vw;
+  margin-right: 1.85vw;
   position: relative;
   background: white;
   flex-shrink: 0;
@@ -446,7 +443,7 @@ input:hover {
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  font-size: 50px;
+  font-size: 2.31vw;
   font-weight: bold;
 }
 
@@ -456,55 +453,55 @@ input:hover {
 }
 
 /* .quiz-next-btn {
-  bottom: 200px;
+  bottom: 9.26vw;
   left: 50%;
   transform: translateX(-50%);
-  width: 1448.252197265625px;
-  height: 200px;
+  width: 67.05vw;
+  height: 9.26vw;
   background: #45BABD;
   color: white;
   border: none;
-  border-radius: 100px;
-  font-size: 80px;
+  border-radius: 4.63vw;
+  font-size: 3.70vw;
   font-weight: 600;
   z-index: 15;
 } */
 .notepad-content1 h2 {
-  width: 1466.8194580078125px;
-  height: 216px;
+  width: 67.91vw;
+  height: 10.00vw;
   transform: rotate(0deg);
   opacity: 1;
-  font-size: 180px;
+  font-size: 8.33vw;
 }
 .notepad-content1 p {
   font-family: 'Alegreya Sans', Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 120px;
+  font-size: 5.56vw;
   line-height: 100%;
   letter-spacing: -1.1%;
 }
 /* Step 6 Quiz Styles */
 .quiz-progress {
   position: absolute;
-  top: 800px;
-  left: 469px;
+  top: 37.04vw;
+  left: 21.71vw;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.46vw;
   z-index: 9999;
   background: white;
-  padding: 15px;
-  border-radius: 5px;
-  width: 1304.84619140625px;
+  padding: 0.69vw;
+  border-radius: 0.23vw;
+  width: 60.41vw;
 }
 
 .progress-bar {
-  width: 1304.84619140625px;
-  height:42.80217742919922px;
+  width: 60.41vw;
+  height: 1.98vw;
   background: #e0e0e0;
-  border: 10px solid #45BABD;
-  border-radius: 25px;
+  border: 0.46vw solid #45BABD;
+  border-radius: 1.16vw;
   position: relative;
   z-index: 9999;
   overflow: hidden;
@@ -515,7 +512,7 @@ input:hover {
   background: #45BABD;
   width: 20%;
   transition: width 0.3s ease;
-  border-radius: 8px;
+  border-radius: 0.37vw;
 }
 
 .progress-bar::before {
@@ -523,7 +520,7 @@ input:hover {
   position: absolute;
   top: 0;
   left: 20%;
-  width: 1px;
+  width: 0.05vw;
   height: 100%;
   background: #ccc;
   z-index: 1;
@@ -534,14 +531,14 @@ input:hover {
   position: absolute;
   top: 0;
   left: 40%;
-  width: 1px;
+  width: 0.05vw;
   height: 100%;
   background: #ccc;
   z-index: 1;
 }
 
 .progress-text {
-  font-size: 60px;
+  font-size: 2.78vw;
   font-weight: 600;
   color: #000;
   z-index: 15;
@@ -554,50 +551,50 @@ input:hover {
 
 .quiz-options {
   position: absolute;
-  top: 2200px;
-  left: 469px;
+  top: 101.85vw;
+  left: 21.71vw;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 1.85vw;
   z-index: 10;
 }
 
 #step-6 #nextNameBtn {
-  top: 2300px;
+  top: 106.48vw;
 }
 
 #questionText {
   position: fixed !important;
-  top: 950px !important;
-  left: 469px !important;
+  top: 43.98vw !important;
+  left: 21.71vw !important;
   font-family: 'Alegreya Sans', Arial, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 125px;
+  font-size: 5.79vw;
   line-height: 100%;
   letter-spacing: -1.1%;
-  width: 1565px;
+  width: 72.45vw;
   height: auto;
   transform: rotate(0deg);
   opacity: 1 !important;
   z-index: 99999 !important;
   color: #000 !important;
-  border-radius: 10px;
+  border-radius: 0.46vw;
   display: block !important;
   visibility: visible !important;
 }
 
 .quiz-next-btn {
   position: fixed !important;
-  top: 3400px !important;
-  left: 340px !important;
-  width: 1448.252197265625px !important;
-  height: 297px !important;
+  top: 157.41vw !important;
+  left: 15.74vw !important;
+  width: 67.05vw !important;
+  height: 13.75vw !important;
   background: #45BABD !important;
   color: white !important;
   border: none !important;
-  border-radius: 598px !important;
-  font-size: 80px !important;
+  border-radius: 27.69vw !important;
+  font-size: 3.70vw !important;
   font-weight: 600 !important;
   z-index: 99999 !important;
   display: block !important;
