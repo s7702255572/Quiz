@@ -287,13 +287,20 @@ input:hover {
 }
 
 .instruction-bg {
-  display: inline-block;
+  top: 284px;
+  width: 1459px;
+  height: 407px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
   background: #b3e6fd;
   color: #1976d2;
   font-size: 100px;
-  font-weight: 600;
-  padding: 20px 30px;
-  border-radius: 20px;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 45px;
 }
 
 .winner-visuals {
@@ -303,18 +310,19 @@ input:hover {
 
 .winner-arrow {
   position: absolute;
-  left: 1200px;
+  left: 782.37px;
   top: 1800px;
-  width: 300px;
+  width: 510.31805419921875px;
   z-index: 2;
 }
 
 .winner-gift {
   position: absolute;
-  left: 800px;
+  left: 300px;
   top: 2200px;
-  width: 300px;
-  z-index: 2;
+  width: 860px;
+  height: 954px;
+  z-index: 3;
 }
 
 .winner-tooth {
@@ -395,7 +403,7 @@ input:hover {
 
 .options {
   position: absolute;
-  top: 1900px;
+  top: 2000px;
   left: 469px;
   display: flex;
   flex-direction: column;

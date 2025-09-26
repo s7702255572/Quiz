@@ -108,6 +108,8 @@ function restart() {
   current = 0;
   score = 0;
   document.getElementById('username').value = "";
+  document.getElementById('dentistRadio').checked = false;
+  document.getElementById('generalRadio').checked = false;
   showStep(1);
 }
 
